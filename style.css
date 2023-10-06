@@ -1,0 +1,59 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(43, 43, 71);
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+.container
+{
+    display: flex;
+}
+.box
+{
+    position: relative;
+    margin: 0px 10px;
+    -webkit-box-reflect: below 2px linear-gradient(transparent,#0004);
+    
+}
+.hours,.minutes,.seconds
+{
+    display: block;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #101820FF;
+    color: rgb(163, 162, 162);
+    font-size: 50px;
+}
+.text
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    color: rgb(177, 161, 161);
+    background-color: black;
+    box-shadow: 0 0 0 1px rgba(0 0 0 0.2);
+    font-size: 13px;
+    letter-spacing: 2px;
+
+}
+.container div:last-child span
+{
+    background-color: yellow;
+}
+.container div:last-child span:nth-child(2)
+{
+    background-color: rgb(112, 112, 22);
+}
